@@ -1,0 +1,69 @@
+html{
+    background-color:rgb(100, 97, 97);
+    height: 100%;
+}
+
+.titulo-site{
+    color: blueviolet;
+    text-align:center;
+}
+
+
+
+
+
+
+body{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 0px;
+
+    
+}
+
+.nav-lista{
+    
+    color:white;
+    list-style: none;
+    justify-content: space-around;
+    display: flex;
+    
+
+
+}
+
+.nav{
+    background-color: rgb(54,54,54);
+}
+
+footer{
+    background-color: rgb(54,54,54);
+    text-align: center;
+    color: white;
+    padding: 10px 0px;
+
+
+}
+
+.list-card{
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    justify-content: center;
+    column-gap: 10px;
+    row-gap: 10px;
+    padding: 10px;
+    justify-content: space-around;
+    border: 2px solid #333;
+}
+
+.card{
+    width: fit-content;
+    text-align: center;
+    border:2px solid #333
+    
+    
+    
+}
